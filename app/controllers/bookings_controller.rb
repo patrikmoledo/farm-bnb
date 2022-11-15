@@ -1,10 +1,9 @@
 class BookingsController < ApplicationController
   def index
-
+    @user = policy_scope(User)
   end
 
   def create
-
   end
 
   def edit
