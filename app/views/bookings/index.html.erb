@@ -65,7 +65,7 @@
             <% end %> <%# < card end %>
             <div class="card-details">
               <h4>From:<%= booking.start_date %> To:<%= booking.end_date %></h4>
-              <h4><%= number_to_currency(booking.price, {unit: '¥', precision: 0}, :negative_format => '- %n %u') %></h4>
+              <h4><%= number_to_currency(booking.price, {unit: '¥', precision: 0}) %></h4>
               <div class="d-flex">
                 <% if booking.pending? %>
                   <%= simple_form_for booking do |f| %>
