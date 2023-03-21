@@ -2,6 +2,8 @@
 
 Web application that enables you to rent an animal to your farm or rent out your animals to other farmers.
 
+<img src="app/assets/images/farmbnb-homepage.png">
+
 ## How to run
 ### Setup
 
