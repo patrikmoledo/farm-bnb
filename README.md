@@ -1,3 +1,7 @@
+# FarmBnb
+
+Web application that enables you to rent an animal to your farm or rent out your animals to other farmers.
+
 ## How to run
 ### Setup
 
